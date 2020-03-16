@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54a3d54f-155a-45d8-9ce3-14126e5a1383" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="54a3d54f-155a-45d8-9ce3-14126e5a1383" name="Default Changelist" comment="forgot button added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/voyager/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/vendor/voyager/login.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,18 +158,34 @@
       <option name="presentableId" value="Default" />
       <updated>1584348341074</updated>
       <workItem from="1584348361406" duration="1368000" />
-      <workItem from="1584350382462" duration="8638000" />
+      <workItem from="1584350382462" duration="9146000" />
     </task>
+    <task id="LOCAL-00001" summary="forgot button added">
+      <created>1584365715598</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584365715598</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="forgot button added" />
+    <option name="LAST_COMMIT_MESSAGE" value="forgot button added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584349487954">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1584349487954" />
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1584365735018">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584365735018" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1584354565107">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -180,6 +194,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1584349545607" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1584365741233">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1584365741233" />
     <state x="378" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1584350542206">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
