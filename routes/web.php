@@ -12,6 +12,19 @@
 */
 
 
-Route::group(['prefix' => ''], function () {
+Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
+Route::get('/create-event','EventController@create');
+Route::get('login',function (){
+    return view('vendor.voyager.index');
+});
+
+Route::get('login',function (){
+    return view('vendor.voyager.index');
+});
+Route::get('/map',function (){
+   return view('vendor.voyager.map.create');
+});
+Route::get('/create-event','EventController@create');
+Route::post('/create-events','EventController@store');
