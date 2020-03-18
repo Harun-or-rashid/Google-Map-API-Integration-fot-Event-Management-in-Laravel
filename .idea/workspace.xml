@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54a3d54f-155a-45d8-9ce3-14126e5a1383" name="Default Changelist" comment="event table added">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_16_134007_create_events_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    <list default="true" id="54a3d54f-155a-45d8-9ce3-14126e5a1383" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Event.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/EventController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_03_18_125905_create_events_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/voyager/map/create.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +164,7 @@
       <workItem from="1584350382462" duration="9409000" />
       <workItem from="1584509291402" duration="1103000" />
       <workItem from="1584510411589" duration="251000" />
-      <workItem from="1584510718375" duration="18091000" />
+      <workItem from="1584510718375" duration="18381000" />
     </task>
     <task id="LOCAL-00001" summary="forgot button added">
       <created>1584365715598</created>
@@ -180,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584366170830</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="migration and map api integration">
+      <created>1584536501292</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584536501292</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,7 +196,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="forgot button added" />
     <MESSAGE value="event table added" />
-    <option name="LAST_COMMIT_MESSAGE" value="event table added" />
+    <MESSAGE value="migration and map api integration" />
+    <option name="LAST_COMMIT_MESSAGE" value="migration and map api integration" />
   </component>
   <component name="WindowStateProjectService">
     <state x="270" y="18" key="#Test_Frameworks" timestamp="1584510074578">
@@ -204,10 +212,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="367" y="18" width="646" height="691" key="#phpunit.xml/0.0.1366.728@0.0.1366.728" timestamp="1584510075769" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1584366326968">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1584536499572">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584366326968" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584536499572" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1584523168884">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
